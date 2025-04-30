@@ -1,0 +1,12 @@
+
+<h1>Reajuste Salarial</h1>
+<form action="/" method="POST">
+  <label>Salário atual: <input type="number" step="0.01" name="salario" required></label>
+  <button type="submit">Calcular Reajuste</button>
+</form>
+<% if (dados) { %>
+  <p><strong>Salário antes do reajuste:</strong> R$ <%= dados.salario %></p>
+  <p><strong>Percentual de aumento aplicado:</strong> <%= dados.percentual %>%</p>
+  <p><strong>Valor do aumento:</strong> R$ <%= dados.aumento %></p>
+  <p><strong>Novo salário:</strong> R$ <%= dados.novoSalario %></p>
+<% } %>

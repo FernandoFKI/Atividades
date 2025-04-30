@@ -1,0 +1,9 @@
+
+<h1>Dia da Semana</h1>
+<form action="/" method="POST">
+  <label>Número (1 a 7): <input type="number" name="numero" required></label>
+  <button type="submit">Verificar</button>
+</form>
+<% if (resultado) { %>
+  <h2><%= resultado %></h2>
+<% } %>

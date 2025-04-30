@@ -1,0 +1,9 @@
+
+<h1>Classificação de Natação</h1>
+<form action="/" method="POST">
+  <label>Idade: <input type="number" name="idade" required></label>
+  <button type="submit">Classificar</button>
+</form>
+<% if (resultado) { %>
+  <h2>Categoria: <%= resultado %></h2>
+<% } %>
