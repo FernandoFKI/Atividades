@@ -1,0 +1,14 @@
+{
+  "name": "lista1_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "lista"
+  ],
+  "author": "Fernando",
+  "license": "ISC"
+}
